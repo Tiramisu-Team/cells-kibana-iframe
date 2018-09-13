@@ -31,7 +31,11 @@ The following custom properties and mixins are available for styling:
     <style include="cells-kibana-iframe-styles cells-kibana-iframe-shared-styles"></style>
     <slot></slot>
 
-    <p>Welcome to Cells</p>
+    <iframe 
+        src="[[iframeUrl]]" 
+        height="600" 
+        width="800">
+      </iframe>
 
   </template>
   <script src="cells-kibana-iframe.js"></script>
