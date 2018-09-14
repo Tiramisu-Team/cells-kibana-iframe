@@ -8,7 +8,11 @@ class CellsKibanaIframe extends Polymer.Element {
     return {
       iframeUrl: {
         type: String,
-        value: 'https://search-tiramisues-pyjapf5clyzw462fbyzwiju6ua.us-west-2.es.amazonaws.com/_plugin/kibana/goto/305aa20c9e6ef02c3df7965e03ae60d0?embed=true'
+        value: 'https://search-tiramisues-pyjapf5clyzw462fbyzwiju6ua.us-west-2.es.amazonaws.com/_plugin/kibana/goto/4c455caf7aeb6a3758d3396611825800?embed=false'
+      },
+      titulo: {
+        type: String,
+        value: 'Titulo del marco'
       }
     };
   }
